@@ -1,4 +1,4 @@
-package com.crm.qa.base;
+ package com.crm.qa.base;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,8 +13,8 @@ import com.crm.qa.util.TestUtil;
 
 public class TestBase {
 
- static WebDriver driver;
-static   Properties Properties;
+ public  static WebDriver driver;
+public static   Properties Properties;
  
  
 	public TestBase() throws IOException{
